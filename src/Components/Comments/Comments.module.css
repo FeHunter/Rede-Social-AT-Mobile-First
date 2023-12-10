@@ -1,0 +1,11 @@
+.commentsContainer {
+    border-bottom: 1px solid darkgray;
+    padding: 1%;
+    background-color: rgb(34, 34, 34);
+}
+
+.commentsInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}

@@ -1,0 +1,13 @@
+.main {
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.friendList {
+    grid-area: friendList;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}

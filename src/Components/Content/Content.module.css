@@ -1,0 +1,9 @@
+.content {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
+    align-items: center;
+    padding: 10px 0px;
+}

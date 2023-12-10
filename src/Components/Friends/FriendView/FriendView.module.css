@@ -1,0 +1,23 @@
+.friendView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: auto;
+    color: white;
+}
+.friendView:hover {
+    cursor: pointer;
+}
+.friendView img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.commonFriend {
+    text-align: center;
+    font-size: .5em;
+    color: darkgray;
+}

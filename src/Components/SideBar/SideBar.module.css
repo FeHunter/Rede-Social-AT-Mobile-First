@@ -1,0 +1,12 @@
+.sideBar {
+    grid-area: aside;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+@media screen and (min-width: 600px){
+    .sideBar {
+        border: none;
+        border-left: 1px solid white;
+    }
+}

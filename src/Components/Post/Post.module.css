@@ -1,0 +1,80 @@
+/* Content principal */
+.post {
+    font-size: 1.1em;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px auto 2fr;
+    grid-template-areas: 'info' 'content' 'interaction';
+    width: 100%;
+    height: auto;
+    padding: 1% 0px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Parte de cima */
+.up {
+    grid-area: info;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 3%;
+    width: 100%;
+    height: 100%;
+}
+.upAuthor {
+    margin-left: 10px;
+}
+.profileImg {
+    width: 12%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+.upDate {
+    text-align: right;
+    flex-grow: 1;
+}
+
+/* Parte central do post */
+.middle {
+    grid-area: content;
+    padding: 10px 0px;
+}
+.middle img {
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+/* Parte inferior do post */
+.bottom {
+    grid-area: interaction;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottomBtn:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.commentsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 205px;
+    overflow-y: auto;
+}
+
+@media screen and (min-width: 600px){
+    /* Content principal */
+    .post {
+        width: 40%;
+    }
+    .profileImg {
+        width: 9%;
+        height: 95%;
+        border-radius: 50%;
+    }
+}
